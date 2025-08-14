@@ -1,0 +1,6 @@
+def rec_N_1(num):
+    if num !=0:
+        print(num)
+        rec_N_1(num-1)
+rec_N_1(5)
+ 
